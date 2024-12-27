@@ -29,3 +29,21 @@
 // });
 
 
+const caixaUm = document.createElement('div');
+caixaUm.classList.add('caixa_um');
+
+const caixaDois = document.createElement('div');
+caixaDois.classList.add('caixa_dois');
+
+const caixaTres = document.createElement('div');
+caixaTres.classList.add('caixa_tres');
+
+const caixaQuatro = document.createElement('div');
+caixaQuatro.classList.add('caixa_quatro');
+
+document.body.appendChild(caixaUm);
+document.body.appendChild(caixaDois);
+document.body.appendChild(caixaTres);
+document.body.appendChild(caixaQuatro);
+
+
