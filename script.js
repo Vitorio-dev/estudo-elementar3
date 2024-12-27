@@ -42,24 +42,24 @@ document.body.appendChild(caixaQuatro);
 
 function identificarCaixaClicada(event) {
   const caixaClicada = event.target;
-  console.log(`Você clicou na ${caixaClicada.classList[0]}`);
+    // console.log(`Você clicou na ${caixaClicada.classList[0]}`);
 
   if (caixaClicada === caixaUm) {
-    const tempStyle = caixaUm.style.backgroundColor;
+    const temporarioStyle = caixaUm.style.backgroundColor;
     caixaUm.style.backgroundColor = caixaDois.style.backgroundColor;
-    caixaDois.style.backgroundColor = tempStyle;
+    caixaDois.style.backgroundColor = temporarioStyle;
   } else if (caixaClicada === caixaDois) {
-    const tempStyle = caixaDois.style.backgroundColor;
+    const temporarioStyle = caixaDois.style.backgroundColor;
     caixaDois.style.backgroundColor = caixaTres.style.backgroundColor;
-    caixaTres.style.backgroundColor = tempStyle;
+    caixaTres.style.backgroundColor = temporarioStyle;
   } else if (caixaClicada === caixaTres) {
-    const tempStyle = caixaTres.style.backgroundColor;
+    const temporarioStyle = caixaTres.style.backgroundColor;
     caixaTres.style.backgroundColor = caixaQuatro.style.backgroundColor;
-    caixaQuatro.style.backgroundColor = tempStyle;
+    caixaQuatro.style.backgroundColor = temporarioStyle;
   } else if (caixaClicada === caixaQuatro) {
-    const tempStyle = caixaQuatro.style.backgroundColor;
+    const temporarioStyle = caixaQuatro.style.backgroundColor;
     caixaQuatro.style.backgroundColor = caixaUm.style.backgroundColor;
-    caixaUm.style.backgroundColor = tempStyle;
+    caixaUm.style.backgroundColor = temporarioStyle;
   }
 }
 
