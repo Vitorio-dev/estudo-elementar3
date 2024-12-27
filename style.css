@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(2, 95, 246)
+}
+
+.caixa_um {
+    border: 3px solid black;
+    position: relative;
+}
+.caixa_dois {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 100px;
+    border: 3px solid rgb(247, 0, 119);
+}
+.caixa_tres {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 200px;
+    border: 3px solid rgb(11, 209, 17);
+}
+.caixa_quatro {
+    position: absolute  ;
+    margin-left: 450px;
+    margin-top: 300px;
+    border: 3px solid rgb(255, 234, 0);
+}
